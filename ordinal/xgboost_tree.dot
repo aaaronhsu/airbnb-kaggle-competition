@@ -1,0 +1,1097 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="is_private_room<1" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="accommodates<2" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="calculated_host_listings_count_entire_homes<19.5" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="calculated_host_listings_count_entire_homes<0" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="log_min_landmark_distance<1.11289763" ]
+    15 -> 31 [label="yes" color="#FF0000"]
+    15 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="calculated_host_listings_count_private_rooms<2.66666675" ]
+    31 -> 55 [label="yes" color="#FF0000"]
+    31 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="log_mean_landmark_distance<1.26719093" ]
+    55 -> 97 [label="yes" color="#FF0000"]
+    55 -> 98 [label="no, missing" color="#0000FF"]
+
+    97 [ label="leaf=0.00394259207" ]
+
+    98 [ label="leaf=-0.00912732817" ]
+
+    56 [ label="leaf=0.0276953001" ]
+
+    32 [ label="availability_rate_30<1.43057573" ]
+    32 -> 57 [label="yes" color="#FF0000"]
+    32 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="minimum_nights<-28" ]
+    57 -> 99 [label="yes" color="#FF0000"]
+    57 -> 100 [label="no, missing" color="#0000FF"]
+
+    99 [ label="leaf=0.0125533072" ]
+
+    100 [ label="leaf=0.0469510891" ]
+
+    58 [ label="log_mean_landmark_distance<2.81871319" ]
+    58 -> 101 [label="yes" color="#FF0000"]
+    58 -> 102 [label="no, missing" color="#0000FF"]
+
+    101 [ label="log_min_landmark_distance<2.04090047" ]
+    101 -> 163 [label="yes" color="#FF0000"]
+    101 -> 164 [label="no, missing" color="#0000FF"]
+
+    163 [ label="leaf=0.00889571197" ]
+
+    164 [ label="leaf=0.0464948863" ]
+
+    102 [ label="leaf=0.00127490773" ]
+
+    16 [ label="log_mean_landmark_distance<2.41036606" ]
+    16 -> 33 [label="yes" color="#FF0000"]
+    16 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="is_shared<1" ]
+    33 -> 59 [label="yes" color="#FF0000"]
+    33 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="log_mean_landmark_distance<2.3124907" ]
+    59 -> 103 [label="yes" color="#FF0000"]
+    59 -> 104 [label="no, missing" color="#0000FF"]
+
+    103 [ label="log_min_landmark_distance<0.543305516" ]
+    103 -> 165 [label="yes" color="#FF0000"]
+    103 -> 166 [label="no, missing" color="#0000FF"]
+
+    165 [ label="log_mean_landmark_distance<1.37940264" ]
+    165 -> 249 [label="yes" color="#FF0000"]
+    165 -> 250 [label="no, missing" color="#0000FF"]
+
+    249 [ label="leaf=-0.00925245322" ]
+
+    250 [ label="leaf=0.00394259207" ]
+
+    166 [ label="leaf=-0.00938225165" ]
+
+    104 [ label="log_mean_landmark_distance<2.33907747" ]
+    104 -> 167 [label="yes" color="#FF0000"]
+    104 -> 168 [label="no, missing" color="#0000FF"]
+
+    167 [ label="leaf=0.00394259207" ]
+
+    168 [ label="leaf=-0.00879384112" ]
+
+    60 [ label="calculated_host_listings_count_private_rooms<0.333333343" ]
+    60 -> 105 [label="yes" color="#FF0000"]
+    60 -> 106 [label="no, missing" color="#0000FF"]
+
+    105 [ label="leaf=0.0321335196" ]
+
+    106 [ label="leaf=-0.00917010196" ]
+
+    34 [ label="availability_rate_30<-0.732630134" ]
+    34 -> 61 [label="yes" color="#FF0000"]
+    34 -> 62 [label="no, missing" color="#0000FF"]
+
+    61 [ label="log_min_landmark_distance<2.64621258" ]
+    61 -> 107 [label="yes" color="#FF0000"]
+    61 -> 108 [label="no, missing" color="#0000FF"]
+
+    107 [ label="leaf=0.0276953001" ]
+
+    108 [ label="leaf=0.0464948863" ]
+
+    62 [ label="calculated_host_listings_count_private_rooms<0.666666687" ]
+    62 -> 109 [label="yes" color="#FF0000"]
+    62 -> 110 [label="no, missing" color="#0000FF"]
+
+    109 [ label="log_mean_landmark_distance<2.60532689" ]
+    109 -> 169 [label="yes" color="#FF0000"]
+    109 -> 170 [label="no, missing" color="#0000FF"]
+
+    169 [ label="leaf=-0.00879384112" ]
+
+    170 [ label="log_min_landmark_distance<2.55867004" ]
+    170 -> 251 [label="yes" color="#FF0000"]
+    170 -> 252 [label="no, missing" color="#0000FF"]
+
+    251 [ label="leaf=0.0223979186" ]
+
+    252 [ label="leaf=0.00279776892" ]
+
+    110 [ label="leaf=0.0321335196" ]
+
+    8 [ label="log_mean_landmark_distance<1.30659235" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="leaf=0.0469384082" ]
+
+    18 [ label="leaf=0.0043224832" ]
+
+    4 [ label="is_shared<1" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="calculated_host_listings_count_entire_homes<25" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="log_mean_landmark_distance<2.51777101" ]
+    19 -> 35 [label="yes" color="#FF0000"]
+    19 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="log_mean_landmark_distance<1.40820217" ]
+    35 -> 63 [label="yes" color="#FF0000"]
+    35 -> 64 [label="no, missing" color="#0000FF"]
+
+    63 [ label="leaf=-0.00940345135" ]
+
+    64 [ label="is_hotel<1" ]
+    64 -> 111 [label="yes" color="#FF0000"]
+    64 -> 112 [label="no, missing" color="#0000FF"]
+
+    111 [ label="bedrooms<1" ]
+    111 -> 171 [label="yes" color="#FF0000"]
+    111 -> 172 [label="no, missing" color="#0000FF"]
+
+    171 [ label="minimum_nights<95" ]
+    171 -> 253 [label="yes" color="#FF0000"]
+    171 -> 254 [label="no, missing" color="#0000FF"]
+
+    253 [ label="leaf=-0.00862182677" ]
+
+    254 [ label="leaf=0.00394259207" ]
+
+    172 [ label="log_min_landmark_distance<1.62735832" ]
+    172 -> 255 [label="yes" color="#FF0000"]
+    172 -> 256 [label="no, missing" color="#0000FF"]
+
+    255 [ label="leaf=-0.00933900196" ]
+
+    256 [ label="leaf=-0.00896881614" ]
+
+    112 [ label="accommodates<5" ]
+    112 -> 173 [label="yes" color="#FF0000"]
+    112 -> 174 [label="no, missing" color="#0000FF"]
+
+    173 [ label="minimum_nights<-2" ]
+    173 -> 257 [label="yes" color="#FF0000"]
+    173 -> 258 [label="no, missing" color="#0000FF"]
+
+    257 [ label="leaf=-0.00870287139" ]
+
+    258 [ label="leaf=-0.00345829851" ]
+
+    174 [ label="log_mean_landmark_distance<1.4338243" ]
+    174 -> 259 [label="yes" color="#FF0000"]
+    174 -> 260 [label="no, missing" color="#0000FF"]
+
+    259 [ label="leaf=0.0238317084" ]
+
+    260 [ label="leaf=-0.00889571197" ]
+
+    36 [ label="accommodates<3" ]
+    36 -> 65 [label="yes" color="#FF0000"]
+    36 -> 66 [label="no, missing" color="#0000FF"]
+
+    65 [ label="availability_rate_30<-0.572392642" ]
+    65 -> 113 [label="yes" color="#FF0000"]
+    65 -> 114 [label="no, missing" color="#0000FF"]
+
+    113 [ label="log_min_landmark_distance<2.2620585" ]
+    113 -> 175 [label="yes" color="#FF0000"]
+    113 -> 176 [label="no, missing" color="#0000FF"]
+
+    175 [ label="log_min_landmark_distance<2.21515656" ]
+    175 -> 261 [label="yes" color="#FF0000"]
+    175 -> 262 [label="no, missing" color="#0000FF"]
+
+    261 [ label="leaf=-0.00879384112" ]
+
+    262 [ label="leaf=0.0276953001" ]
+
+    176 [ label="minimum_nights<-22" ]
+    176 -> 263 [label="yes" color="#FF0000"]
+    176 -> 264 [label="no, missing" color="#0000FF"]
+
+    263 [ label="leaf=-0.00931800995" ]
+
+    264 [ label="leaf=-0.00208196137" ]
+
+    114 [ label="log_mean_landmark_distance<2.61416531" ]
+    114 -> 177 [label="yes" color="#FF0000"]
+    114 -> 178 [label="no, missing" color="#0000FF"]
+
+    177 [ label="availability_rate_30<0.148675993" ]
+    177 -> 265 [label="yes" color="#FF0000"]
+    177 -> 266 [label="no, missing" color="#0000FF"]
+
+    265 [ label="leaf=0.00906555168" ]
+
+    266 [ label="leaf=-0.0092999246" ]
+
+    178 [ label="bedrooms<1" ]
+    178 -> 267 [label="yes" color="#FF0000"]
+    178 -> 268 [label="no, missing" color="#0000FF"]
+
+    267 [ label="leaf=-0.00573852425" ]
+
+    268 [ label="leaf=-0.00938688777" ]
+
+    66 [ label="log_min_landmark_distance<2.06153631" ]
+    66 -> 115 [label="yes" color="#FF0000"]
+    66 -> 116 [label="no, missing" color="#0000FF"]
+
+    115 [ label="leaf=0.00394259207" ]
+
+    116 [ label="calculated_host_listings_count_private_rooms<1.33333337" ]
+    116 -> 179 [label="yes" color="#FF0000"]
+    116 -> 180 [label="no, missing" color="#0000FF"]
+
+    179 [ label="availability_rate_30<-0.892867565" ]
+    179 -> 269 [label="yes" color="#FF0000"]
+    179 -> 270 [label="no, missing" color="#0000FF"]
+
+    269 [ label="leaf=-0.00800184254" ]
+
+    270 [ label="leaf=-0.00940035097" ]
+
+    180 [ label="calculated_host_listings_count_private_rooms<2" ]
+    180 -> 271 [label="yes" color="#FF0000"]
+    180 -> 272 [label="no, missing" color="#0000FF"]
+
+    271 [ label="leaf=0.00394259207" ]
+
+    272 [ label="leaf=-0.00909952819" ]
+
+    20 [ label="calculated_host_listings_count_entire_homes<33" ]
+    20 -> 37 [label="yes" color="#FF0000"]
+    20 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="beds<2" ]
+    37 -> 67 [label="yes" color="#FF0000"]
+    37 -> 68 [label="no, missing" color="#0000FF"]
+
+    67 [ label="calculated_host_listings_count_entire_homes<32.25" ]
+    67 -> 117 [label="yes" color="#FF0000"]
+    67 -> 118 [label="no, missing" color="#0000FF"]
+
+    117 [ label="leaf=-0.000910836388" ]
+
+    118 [ label="availability_rate_30<-0.892867565" ]
+    118 -> 181 [label="yes" color="#FF0000"]
+    118 -> 182 [label="no, missing" color="#0000FF"]
+
+    181 [ label="log_min_landmark_distance<0.922163963" ]
+    181 -> 273 [label="yes" color="#FF0000"]
+    181 -> 274 [label="no, missing" color="#0000FF"]
+
+    273 [ label="leaf=0.0348219052" ]
+
+    274 [ label="leaf=0.00394259207" ]
+
+    182 [ label="log_mean_landmark_distance<1.30659235" ]
+    182 -> 275 [label="yes" color="#FF0000"]
+    182 -> 276 [label="no, missing" color="#0000FF"]
+
+    275 [ label="leaf=0.038513232" ]
+
+    276 [ label="leaf=0.0469206572" ]
+
+    68 [ label="leaf=-0.00922546256" ]
+
+    38 [ label="leaf=-0.0094022816" ]
+
+    10 [ label="calculated_host_listings_count_private_rooms<1" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="beds<2" ]
+    21 -> 39 [label="yes" color="#FF0000"]
+    21 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="log_min_landmark_distance<2.12100005" ]
+    39 -> 69 [label="yes" color="#FF0000"]
+    39 -> 70 [label="no, missing" color="#0000FF"]
+
+    69 [ label="log_mean_landmark_distance<1.73195684" ]
+    69 -> 119 [label="yes" color="#FF0000"]
+    69 -> 120 [label="no, missing" color="#0000FF"]
+
+    119 [ label="leaf=0.00127490773" ]
+
+    120 [ label="availability_rate_30<-0.412155151" ]
+    120 -> 183 [label="yes" color="#FF0000"]
+    120 -> 184 [label="no, missing" color="#0000FF"]
+
+    183 [ label="leaf=0.0125533072" ]
+
+    184 [ label="leaf=0.0351101086" ]
+
+    70 [ label="availability_rate_30<1.43057573" ]
+    70 -> 121 [label="yes" color="#FF0000"]
+    70 -> 122 [label="no, missing" color="#0000FF"]
+
+    121 [ label="availability_rate_30<0.949863374" ]
+    121 -> 185 [label="yes" color="#FF0000"]
+    121 -> 186 [label="no, missing" color="#0000FF"]
+
+    185 [ label="leaf=-0.00864108186" ]
+
+    186 [ label="leaf=0.0125533072" ]
+
+    122 [ label="leaf=-0.00909952819" ]
+
+    40 [ label="availability_rate_30<-0.892867565" ]
+    40 -> 71 [label="yes" color="#FF0000"]
+    40 -> 72 [label="no, missing" color="#0000FF"]
+
+    71 [ label="leaf=0.00394259207" ]
+
+    72 [ label="log_mean_landmark_distance<2.97408724" ]
+    72 -> 123 [label="yes" color="#FF0000"]
+    72 -> 124 [label="no, missing" color="#0000FF"]
+
+    123 [ label="leaf=-0.00927794632" ]
+
+    124 [ label="leaf=0.00127490773" ]
+
+    22 [ label="leaf=0.0467367545" ]
+
+    2 [ label="calculated_host_listings_count_private_rooms<1" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="minimum_nights<-1" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="accommodates<2" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="calculated_host_listings_count_private_rooms<0.666666687" ]
+    23 -> 41 [label="yes" color="#FF0000"]
+    23 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="availability_rate_30<-0.892867565" ]
+    41 -> 73 [label="yes" color="#FF0000"]
+    41 -> 74 [label="no, missing" color="#0000FF"]
+
+    73 [ label="calculated_host_listings_count_private_rooms<0.333333343" ]
+    73 -> 125 [label="yes" color="#FF0000"]
+    73 -> 126 [label="no, missing" color="#0000FF"]
+
+    125 [ label="log_mean_landmark_distance<2.252177" ]
+    125 -> 187 [label="yes" color="#FF0000"]
+    125 -> 188 [label="no, missing" color="#0000FF"]
+
+    187 [ label="leaf=0.0143402629" ]
+
+    188 [ label="leaf=-0" ]
+
+    126 [ label="leaf=-0.00909952819" ]
+
+    74 [ label="log_min_landmark_distance<2.11449432" ]
+    74 -> 127 [label="yes" color="#FF0000"]
+    74 -> 128 [label="no, missing" color="#0000FF"]
+
+    127 [ label="leaf=-0.00934979785" ]
+
+    128 [ label="log_min_landmark_distance<2.16055751" ]
+    128 -> 189 [label="yes" color="#FF0000"]
+    128 -> 190 [label="no, missing" color="#0000FF"]
+
+    189 [ label="leaf=0.00628260663" ]
+
+    190 [ label="log_min_landmark_distance<2.66535044" ]
+    190 -> 277 [label="yes" color="#FF0000"]
+    190 -> 278 [label="no, missing" color="#0000FF"]
+
+    277 [ label="leaf=-0.00925245322" ]
+
+    278 [ label="leaf=0.00057973084" ]
+
+    42 [ label="minimum_nights<-26" ]
+    42 -> 75 [label="yes" color="#FF0000"]
+    42 -> 76 [label="no, missing" color="#0000FF"]
+
+    75 [ label="minimum_nights<-28" ]
+    75 -> 129 [label="yes" color="#FF0000"]
+    75 -> 130 [label="no, missing" color="#0000FF"]
+
+    129 [ label="leaf=-0.00889571197" ]
+
+    130 [ label="leaf=0.00628260663" ]
+
+    76 [ label="leaf=0.0321335196" ]
+
+    24 [ label="log_min_landmark_distance<2.16055751" ]
+    24 -> 43 [label="yes" color="#FF0000"]
+    24 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=-0.00926835462" ]
+
+    44 [ label="log_min_landmark_distance<2.16547728" ]
+    44 -> 77 [label="yes" color="#FF0000"]
+    44 -> 78 [label="no, missing" color="#0000FF"]
+
+    77 [ label="leaf=0.0125533072" ]
+
+    78 [ label="minimum_nights<-26" ]
+    78 -> 131 [label="yes" color="#FF0000"]
+    78 -> 132 [label="no, missing" color="#0000FF"]
+
+    131 [ label="log_mean_landmark_distance<3.20049572" ]
+    131 -> 191 [label="yes" color="#FF0000"]
+    131 -> 192 [label="no, missing" color="#0000FF"]
+
+    191 [ label="availability_rate_30<-0.812748849" ]
+    191 -> 279 [label="yes" color="#FF0000"]
+    191 -> 280 [label="no, missing" color="#0000FF"]
+
+    279 [ label="leaf=-0.00770581514" ]
+
+    280 [ label="leaf=-0.00938764308" ]
+
+    192 [ label="beds<2" ]
+    192 -> 281 [label="yes" color="#FF0000"]
+    192 -> 282 [label="no, missing" color="#0000FF"]
+
+    281 [ label="leaf=-0.000910836388" ]
+
+    282 [ label="leaf=-0.00896849204" ]
+
+    132 [ label="availability_rate_30<-0.652511358" ]
+    132 -> 193 [label="yes" color="#FF0000"]
+    132 -> 194 [label="no, missing" color="#0000FF"]
+
+    193 [ label="availability_rate_30<-0.812748849" ]
+    193 -> 283 [label="yes" color="#FF0000"]
+    193 -> 284 [label="no, missing" color="#0000FF"]
+
+    283 [ label="leaf=-0.00889571197" ]
+
+    284 [ label="leaf=0.00628260663" ]
+
+    194 [ label="leaf=-0.00912732817" ]
+
+    12 [ label="availability_rate_30<0.549269676" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="log_min_landmark_distance<1.70640099" ]
+    25 -> 45 [label="yes" color="#FF0000"]
+    25 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="log_mean_landmark_distance<1.76296079" ]
+    45 -> 79 [label="yes" color="#FF0000"]
+    45 -> 80 [label="no, missing" color="#0000FF"]
+
+    79 [ label="accommodates<2" ]
+    79 -> 133 [label="yes" color="#FF0000"]
+    79 -> 134 [label="no, missing" color="#0000FF"]
+
+    133 [ label="log_min_landmark_distance<1.08566916" ]
+    133 -> 195 [label="yes" color="#FF0000"]
+    133 -> 196 [label="no, missing" color="#0000FF"]
+
+    195 [ label="minimum_nights<13" ]
+    195 -> 285 [label="yes" color="#FF0000"]
+    195 -> 286 [label="no, missing" color="#0000FF"]
+
+    285 [ label="leaf=-0.00513492897" ]
+
+    286 [ label="leaf=0.0125533072" ]
+
+    196 [ label="log_min_landmark_distance<1.20210803" ]
+    196 -> 287 [label="yes" color="#FF0000"]
+    196 -> 288 [label="no, missing" color="#0000FF"]
+
+    287 [ label="leaf=0.0216011163" ]
+
+    288 [ label="leaf=0.00037516313" ]
+
+    134 [ label="log_min_landmark_distance<0.569435656" ]
+    134 -> 197 [label="yes" color="#FF0000"]
+    134 -> 198 [label="no, missing" color="#0000FF"]
+
+    197 [ label="log_min_landmark_distance<0.505514264" ]
+    197 -> 289 [label="yes" color="#FF0000"]
+    197 -> 290 [label="no, missing" color="#0000FF"]
+
+    289 [ label="leaf=-0.00912732817" ]
+
+    290 [ label="leaf=0.0180380568" ]
+
+    198 [ label="log_min_landmark_distance<1.20210803" ]
+    198 -> 291 [label="yes" color="#FF0000"]
+    198 -> 292 [label="no, missing" color="#0000FF"]
+
+    291 [ label="leaf=-0.00933589041" ]
+
+    292 [ label="leaf=-0.00681919651" ]
+
+    80 [ label="accommodates<2" ]
+    80 -> 135 [label="yes" color="#FF0000"]
+    80 -> 136 [label="no, missing" color="#0000FF"]
+
+    135 [ label="log_mean_landmark_distance<2.10459065" ]
+    135 -> 199 [label="yes" color="#FF0000"]
+    135 -> 200 [label="no, missing" color="#0000FF"]
+
+    199 [ label="availability_rate_30<-0.812748849" ]
+    199 -> 293 [label="yes" color="#FF0000"]
+    199 -> 294 [label="no, missing" color="#0000FF"]
+
+    293 [ label="leaf=0.015294699" ]
+
+    294 [ label="leaf=0.00118909637" ]
+
+    200 [ label="instant_bookable" ]
+    200 -> 295 [label="yes" color="#FF0000"]
+    200 -> 296 [label="no, missing" color="#0000FF"]
+
+    295 [ label="leaf=0.019741198" ]
+
+    296 [ label="leaf=0.0463885069" ]
+
+    136 [ label="availability_rate_30<0.228794739" ]
+    136 -> 201 [label="yes" color="#FF0000"]
+    136 -> 202 [label="no, missing" color="#0000FF"]
+
+    201 [ label="log_min_landmark_distance<1.6745156" ]
+    201 -> 297 [label="yes" color="#FF0000"]
+    201 -> 298 [label="no, missing" color="#0000FF"]
+
+    297 [ label="leaf=-0.00185220176" ]
+
+    298 [ label="leaf=0.013650611" ]
+
+    202 [ label="leaf=0.0351101086" ]
+
+    46 [ label="beds<2" ]
+    46 -> 81 [label="yes" color="#FF0000"]
+    46 -> 82 [label="no, missing" color="#0000FF"]
+
+    81 [ label="log_mean_landmark_distance<2.54744053" ]
+    81 -> 137 [label="yes" color="#FF0000"]
+    81 -> 138 [label="no, missing" color="#0000FF"]
+
+    137 [ label="accommodates<2" ]
+    137 -> 203 [label="yes" color="#FF0000"]
+    137 -> 204 [label="no, missing" color="#0000FF"]
+
+    203 [ label="log_min_landmark_distance<2.22334123" ]
+    203 -> 299 [label="yes" color="#FF0000"]
+    203 -> 300 [label="no, missing" color="#0000FF"]
+
+    299 [ label="leaf=0.0313703045" ]
+
+    300 [ label="leaf=0.0043224832" ]
+
+    204 [ label="log_mean_landmark_distance<2.19624567" ]
+    204 -> 301 [label="yes" color="#FF0000"]
+    204 -> 302 [label="no, missing" color="#0000FF"]
+
+    301 [ label="leaf=0.00981988572" ]
+
+    302 [ label="leaf=0.0221908018" ]
+
+    138 [ label="calculated_host_listings_count_private_rooms<0.333333343" ]
+    138 -> 205 [label="yes" color="#FF0000"]
+    138 -> 206 [label="no, missing" color="#0000FF"]
+
+    205 [ label="log_min_landmark_distance<2.32697892" ]
+    205 -> 303 [label="yes" color="#FF0000"]
+    205 -> 304 [label="no, missing" color="#0000FF"]
+
+    303 [ label="leaf=0.0141936932" ]
+
+    304 [ label="leaf=0.0299771484" ]
+
+    206 [ label="log_min_landmark_distance<2.51524878" ]
+    206 -> 305 [label="yes" color="#FF0000"]
+    206 -> 306 [label="no, missing" color="#0000FF"]
+
+    305 [ label="leaf=0.0437727943" ]
+
+    306 [ label="leaf=0.0356955789" ]
+
+    82 [ label="log_min_landmark_distance<2.06153631" ]
+    82 -> 139 [label="yes" color="#FF0000"]
+    82 -> 140 [label="no, missing" color="#0000FF"]
+
+    139 [ label="availability_rate_30<-0.732630134" ]
+    139 -> 207 [label="yes" color="#FF0000"]
+    139 -> 208 [label="no, missing" color="#0000FF"]
+
+    207 [ label="leaf=-0.00926635787" ]
+
+    208 [ label="log_min_landmark_distance<1.88881624" ]
+    208 -> 307 [label="yes" color="#FF0000"]
+    208 -> 308 [label="no, missing" color="#0000FF"]
+
+    307 [ label="leaf=0.0462289862" ]
+
+    308 [ label="leaf=0.00279776892" ]
+
+    140 [ label="accommodates<2" ]
+    140 -> 209 [label="yes" color="#FF0000"]
+    140 -> 210 [label="no, missing" color="#0000FF"]
+
+    209 [ label="leaf=0.038513232" ]
+
+    210 [ label="bedrooms<2" ]
+    210 -> 309 [label="yes" color="#FF0000"]
+    210 -> 310 [label="no, missing" color="#0000FF"]
+
+    309 [ label="leaf=0.015294699" ]
+
+    310 [ label="leaf=-0.00216172845" ]
+
+    26 [ label="log_min_landmark_distance<1.87290013" ]
+    26 -> 47 [label="yes" color="#FF0000"]
+    26 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="calculated_host_listings_count_private_rooms<0.666666687" ]
+    47 -> 83 [label="yes" color="#FF0000"]
+    47 -> 84 [label="no, missing" color="#0000FF"]
+
+    83 [ label="accommodates<2" ]
+    83 -> 141 [label="yes" color="#FF0000"]
+    83 -> 142 [label="no, missing" color="#0000FF"]
+
+    141 [ label="log_mean_landmark_distance<2.05825877" ]
+    141 -> 211 [label="yes" color="#FF0000"]
+    141 -> 212 [label="no, missing" color="#0000FF"]
+
+    211 [ label="log_mean_landmark_distance<1.23109245" ]
+    211 -> 311 [label="yes" color="#FF0000"]
+    211 -> 312 [label="no, missing" color="#0000FF"]
+
+    311 [ label="leaf=0.00394259207" ]
+
+    312 [ label="leaf=-0.00716246851" ]
+
+    212 [ label="log_min_landmark_distance<1.60935783" ]
+    212 -> 313 [label="yes" color="#FF0000"]
+    212 -> 314 [label="no, missing" color="#0000FF"]
+
+    313 [ label="leaf=0.013650611" ]
+
+    314 [ label="leaf=-0.0020926944" ]
+
+    142 [ label="log_min_landmark_distance<1.78358233" ]
+    142 -> 213 [label="yes" color="#FF0000"]
+    142 -> 214 [label="no, missing" color="#0000FF"]
+
+    213 [ label="availability_rate_30<1.2703383" ]
+    213 -> 315 [label="yes" color="#FF0000"]
+    213 -> 316 [label="no, missing" color="#0000FF"]
+
+    315 [ label="leaf=-0.00609108713" ]
+
+    316 [ label="leaf=-0.0091626104" ]
+
+    214 [ label="availability_rate_30<1.11010087" ]
+    214 -> 317 [label="yes" color="#FF0000"]
+    214 -> 318 [label="no, missing" color="#0000FF"]
+
+    317 [ label="leaf=0.0180380568" ]
+
+    318 [ label="leaf=-0.00565881468" ]
+
+    84 [ label="log_min_landmark_distance<1.50552273" ]
+    84 -> 143 [label="yes" color="#FF0000"]
+    84 -> 144 [label="no, missing" color="#0000FF"]
+
+    143 [ label="leaf=-0.00923545938" ]
+
+    144 [ label="instant_bookable" ]
+    144 -> 215 [label="yes" color="#FF0000"]
+    144 -> 216 [label="no, missing" color="#0000FF"]
+
+    215 [ label="calculated_host_listings_count_entire_homes<0" ]
+    215 -> 319 [label="yes" color="#FF0000"]
+    215 -> 320 [label="no, missing" color="#0000FF"]
+
+    319 [ label="leaf=0.0221437775" ]
+
+    320 [ label="leaf=-0.00864108186" ]
+
+    216 [ label="leaf=-0.00902308617" ]
+
+    48 [ label="accommodates<2" ]
+    48 -> 85 [label="yes" color="#FF0000"]
+    48 -> 86 [label="no, missing" color="#0000FF"]
+
+    85 [ label="log_min_landmark_distance<2.29407859" ]
+    85 -> 145 [label="yes" color="#FF0000"]
+    85 -> 146 [label="no, missing" color="#0000FF"]
+
+    145 [ label="beds<2" ]
+    145 -> 217 [label="yes" color="#FF0000"]
+    145 -> 218 [label="no, missing" color="#0000FF"]
+
+    217 [ label="log_min_landmark_distance<1.95428979" ]
+    217 -> 321 [label="yes" color="#FF0000"]
+    217 -> 322 [label="no, missing" color="#0000FF"]
+
+    321 [ label="leaf=0.0135408556" ]
+
+    322 [ label="leaf=0.00137573259" ]
+
+    218 [ label="leaf=0.0321335196" ]
+
+    146 [ label="calculated_host_listings_count_private_rooms<0.666666687" ]
+    146 -> 219 [label="yes" color="#FF0000"]
+    146 -> 220 [label="no, missing" color="#0000FF"]
+
+    219 [ label="availability_rate_30<0.949863374" ]
+    219 -> 323 [label="yes" color="#FF0000"]
+    219 -> 324 [label="no, missing" color="#0000FF"]
+
+    323 [ label="leaf=0.0395769961" ]
+
+    324 [ label="leaf=0.0109009044" ]
+
+    220 [ label="availability_rate_30<1.43057573" ]
+    220 -> 325 [label="yes" color="#FF0000"]
+    220 -> 326 [label="no, missing" color="#0000FF"]
+
+    325 [ label="leaf=0.0424416512" ]
+
+    326 [ label="leaf=0.0184242874" ]
+
+    86 [ label="calculated_host_listings_count_private_rooms<0.333333343" ]
+    86 -> 147 [label="yes" color="#FF0000"]
+    86 -> 148 [label="no, missing" color="#0000FF"]
+
+    147 [ label="minimum_nights<105" ]
+    147 -> 221 [label="yes" color="#FF0000"]
+    147 -> 222 [label="no, missing" color="#0000FF"]
+
+    221 [ label="availability_rate_30<1.35045707" ]
+    221 -> 327 [label="yes" color="#FF0000"]
+    221 -> 328 [label="no, missing" color="#0000FF"]
+
+    327 [ label="leaf=0.00260786642" ]
+
+    328 [ label="leaf=-0.00385671179" ]
+
+    222 [ label="leaf=0.0351101086" ]
+
+    148 [ label="availability_rate_30<1.35045707" ]
+    148 -> 223 [label="yes" color="#FF0000"]
+    148 -> 224 [label="no, missing" color="#0000FF"]
+
+    223 [ label="log_mean_landmark_distance<2.91448689" ]
+    223 -> 329 [label="yes" color="#FF0000"]
+    223 -> 330 [label="no, missing" color="#0000FF"]
+
+    329 [ label="leaf=0.0113819269" ]
+
+    330 [ label="leaf=0.0462289862" ]
+
+    224 [ label="calculated_host_listings_count_entire_homes<0" ]
+    224 -> 331 [label="yes" color="#FF0000"]
+    224 -> 332 [label="no, missing" color="#0000FF"]
+
+    331 [ label="leaf=0.00694103586" ]
+
+    332 [ label="leaf=-0.00420607347" ]
+
+    6 [ label="log_min_landmark_distance<1.28572476" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="borough_Manhattan" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="leaf=0.0468141772" ]
+
+    28 [ label="calculated_host_listings_count_private_rooms<3" ]
+    28 -> 49 [label="yes" color="#FF0000"]
+    28 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="log_mean_landmark_distance<1.74231148" ]
+    49 -> 87 [label="yes" color="#FF0000"]
+    49 -> 88 [label="no, missing" color="#0000FF"]
+
+    87 [ label="minimum_nights<1" ]
+    87 -> 149 [label="yes" color="#FF0000"]
+    87 -> 150 [label="no, missing" color="#0000FF"]
+
+    149 [ label="log_mean_landmark_distance<1.25636804" ]
+    149 -> 225 [label="yes" color="#FF0000"]
+    149 -> 226 [label="no, missing" color="#0000FF"]
+
+    225 [ label="accommodates<2" ]
+    225 -> 333 [label="yes" color="#FF0000"]
+    225 -> 334 [label="no, missing" color="#0000FF"]
+
+    333 [ label="leaf=0.0113733858" ]
+
+    334 [ label="leaf=-0.00889571197" ]
+
+    226 [ label="calculated_host_listings_count_private_rooms<2" ]
+    226 -> 335 [label="yes" color="#FF0000"]
+    226 -> 336 [label="no, missing" color="#0000FF"]
+
+    335 [ label="leaf=-0.00932893716" ]
+
+    336 [ label="leaf=-0.00590660051" ]
+
+    150 [ label="leaf=0.0238317084" ]
+
+    88 [ label="calculated_host_listings_count_private_rooms<1.33333337" ]
+    88 -> 151 [label="yes" color="#FF0000"]
+    88 -> 152 [label="no, missing" color="#0000FF"]
+
+    151 [ label="leaf=0.00628260663" ]
+
+    152 [ label="calculated_host_listings_count_private_rooms<2.33333325" ]
+    152 -> 227 [label="yes" color="#FF0000"]
+    152 -> 228 [label="no, missing" color="#0000FF"]
+
+    227 [ label="log_mean_landmark_distance<2.04617906" ]
+    227 -> 337 [label="yes" color="#FF0000"]
+    227 -> 338 [label="no, missing" color="#0000FF"]
+
+    337 [ label="leaf=0.0373583362" ]
+
+    338 [ label="leaf=0.0180380568" ]
+
+    228 [ label="leaf=0.0467077233" ]
+
+    50 [ label="bedrooms<4" ]
+    50 -> 89 [label="yes" color="#FF0000"]
+    50 -> 90 [label="no, missing" color="#0000FF"]
+
+    89 [ label="calculated_host_listings_count_private_rooms<4.66666651" ]
+    89 -> 153 [label="yes" color="#FF0000"]
+    89 -> 154 [label="no, missing" color="#0000FF"]
+
+    153 [ label="accommodates<2" ]
+    153 -> 229 [label="yes" color="#FF0000"]
+    153 -> 230 [label="no, missing" color="#0000FF"]
+
+    229 [ label="log_mean_landmark_distance<1.45471835" ]
+    229 -> 339 [label="yes" color="#FF0000"]
+    229 -> 340 [label="no, missing" color="#0000FF"]
+
+    339 [ label="leaf=0.0321335196" ]
+
+    340 [ label="leaf=0.000986312982" ]
+
+    230 [ label="leaf=-0.00929210987" ]
+
+    154 [ label="log_mean_landmark_distance<2.07858038" ]
+    154 -> 231 [label="yes" color="#FF0000"]
+    154 -> 232 [label="no, missing" color="#0000FF"]
+
+    231 [ label="leaf=-0.00908034295" ]
+
+    232 [ label="log_mean_landmark_distance<2.0980022" ]
+    232 -> 341 [label="yes" color="#FF0000"]
+    232 -> 342 [label="no, missing" color="#0000FF"]
+
+    341 [ label="leaf=0.00394259207" ]
+
+    342 [ label="leaf=-0.00889571197" ]
+
+    90 [ label="log_mean_landmark_distance<2.00352192" ]
+    90 -> 155 [label="yes" color="#FF0000"]
+    90 -> 156 [label="no, missing" color="#0000FF"]
+
+    155 [ label="log_mean_landmark_distance<1.30659235" ]
+    155 -> 233 [label="yes" color="#FF0000"]
+    155 -> 234 [label="no, missing" color="#0000FF"]
+
+    233 [ label="leaf=0.00628260663" ]
+
+    234 [ label="bedrooms<5" ]
+    234 -> 343 [label="yes" color="#FF0000"]
+    234 -> 344 [label="no, missing" color="#0000FF"]
+
+    343 [ label="leaf=-0.00921421684" ]
+
+    344 [ label="leaf=0.00394259207" ]
+
+    156 [ label="availability_rate_30<-0.892867565" ]
+    156 -> 235 [label="yes" color="#FF0000"]
+    156 -> 236 [label="no, missing" color="#0000FF"]
+
+    235 [ label="log_mean_landmark_distance<2.02836609" ]
+    235 -> 345 [label="yes" color="#FF0000"]
+    235 -> 346 [label="no, missing" color="#0000FF"]
+
+    345 [ label="leaf=0.00394259207" ]
+
+    346 [ label="leaf=-0" ]
+
+    236 [ label="leaf=0.0125533072" ]
+
+    14 [ label="minimum_nights<-15" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="accommodates<2" ]
+    29 -> 51 [label="yes" color="#FF0000"]
+    29 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="log_min_landmark_distance<1.96302068" ]
+    51 -> 91 [label="yes" color="#FF0000"]
+    51 -> 92 [label="no, missing" color="#0000FF"]
+
+    91 [ label="leaf=-0.00909952819" ]
+
+    92 [ label="leaf=0.00889571197" ]
+
+    52 [ label="leaf=-0.00937483367" ]
+
+    30 [ label="calculated_host_listings_count_private_rooms<3" ]
+    30 -> 53 [label="yes" color="#FF0000"]
+    30 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="availability_rate_30<1.43057573" ]
+    53 -> 93 [label="yes" color="#FF0000"]
+    53 -> 94 [label="no, missing" color="#0000FF"]
+
+    93 [ label="bedrooms<3" ]
+    93 -> 157 [label="yes" color="#FF0000"]
+    93 -> 158 [label="no, missing" color="#0000FF"]
+
+    157 [ label="log_mean_landmark_distance<1.99405193" ]
+    157 -> 237 [label="yes" color="#FF0000"]
+    157 -> 238 [label="no, missing" color="#0000FF"]
+
+    237 [ label="accommodates<2" ]
+    237 -> 347 [label="yes" color="#FF0000"]
+    237 -> 348 [label="no, missing" color="#0000FF"]
+
+    347 [ label="leaf=0.0269260593" ]
+
+    348 [ label="leaf=0.000717362389" ]
+
+    238 [ label="log_min_landmark_distance<2.71966529" ]
+    238 -> 349 [label="yes" color="#FF0000"]
+    238 -> 350 [label="no, missing" color="#0000FF"]
+
+    349 [ label="leaf=0.0333796032" ]
+
+    350 [ label="leaf=0.0192676056" ]
+
+    158 [ label="availability_rate_30<-0.652511358" ]
+    158 -> 239 [label="yes" color="#FF0000"]
+    158 -> 240 [label="no, missing" color="#0000FF"]
+
+    239 [ label="calculated_host_listings_count_private_rooms<1.33333337" ]
+    239 -> 351 [label="yes" color="#FF0000"]
+    239 -> 352 [label="no, missing" color="#0000FF"]
+
+    351 [ label="leaf=0.0108368471" ]
+
+    352 [ label="leaf=-0.00444919057" ]
+
+    240 [ label="beds<2" ]
+    240 -> 353 [label="yes" color="#FF0000"]
+    240 -> 354 [label="no, missing" color="#0000FF"]
+
+    353 [ label="leaf=0.0321335196" ]
+
+    354 [ label="leaf=0.0180380568" ]
+
+    94 [ label="accommodates<2" ]
+    94 -> 159 [label="yes" color="#FF0000"]
+    94 -> 160 [label="no, missing" color="#0000FF"]
+
+    159 [ label="log_mean_landmark_distance<2.31678271" ]
+    159 -> 241 [label="yes" color="#FF0000"]
+    159 -> 242 [label="no, missing" color="#0000FF"]
+
+    241 [ label="leaf=0.00127490773" ]
+
+    242 [ label="calculated_host_listings_count_private_rooms<1.33333337" ]
+    242 -> 355 [label="yes" color="#FF0000"]
+    242 -> 356 [label="no, missing" color="#0000FF"]
+
+    355 [ label="leaf=0.0113733858" ]
+
+    356 [ label="leaf=0.0381018817" ]
+
+    160 [ label="log_mean_landmark_distance<2.05825877" ]
+    160 -> 243 [label="yes" color="#FF0000"]
+    160 -> 244 [label="no, missing" color="#0000FF"]
+
+    243 [ label="leaf=-0.00923545938" ]
+
+    244 [ label="log_mean_landmark_distance<2.30046511" ]
+    244 -> 357 [label="yes" color="#FF0000"]
+    244 -> 358 [label="no, missing" color="#0000FF"]
+
+    357 [ label="leaf=0.0187003799" ]
+
+    358 [ label="leaf=-0.00195471011" ]
+
+    54 [ label="calculated_host_listings_count_entire_homes<4" ]
+    54 -> 95 [label="yes" color="#FF0000"]
+    54 -> 96 [label="no, missing" color="#0000FF"]
+
+    95 [ label="instant_bookable" ]
+    95 -> 161 [label="yes" color="#FF0000"]
+    95 -> 162 [label="no, missing" color="#0000FF"]
+
+    161 [ label="calculated_host_listings_count_private_rooms<239.333328" ]
+    161 -> 245 [label="yes" color="#FF0000"]
+    161 -> 246 [label="no, missing" color="#0000FF"]
+
+    245 [ label="calculated_host_listings_count_private_rooms<117" ]
+    245 -> 359 [label="yes" color="#FF0000"]
+    245 -> 360 [label="no, missing" color="#0000FF"]
+
+    359 [ label="leaf=0.0417149216" ]
+
+    360 [ label="leaf=0.00682951976" ]
+
+    246 [ label="leaf=0.0470169894" ]
+
+    162 [ label="log_mean_landmark_distance<1.96741128" ]
+    162 -> 247 [label="yes" color="#FF0000"]
+    162 -> 248 [label="no, missing" color="#0000FF"]
+
+    247 [ label="calculated_host_listings_count_private_rooms<4.33333349" ]
+    247 -> 361 [label="yes" color="#FF0000"]
+    247 -> 362 [label="no, missing" color="#0000FF"]
+
+    361 [ label="leaf=0.00915049668" ]
+
+    362 [ label="leaf=-0.00515704323" ]
+
+    248 [ label="log_min_landmark_distance<1.48077083" ]
+    248 -> 363 [label="yes" color="#FF0000"]
+    248 -> 364 [label="no, missing" color="#0000FF"]
+
+    363 [ label="leaf=-0.00879384112" ]
+
+    364 [ label="leaf=0.0360103287" ]
+
+    96 [ label="leaf=-0.00930344034" ]
+}

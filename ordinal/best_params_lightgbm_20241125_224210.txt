@@ -1,0 +1,12 @@
+Best Parameters:
+colsample_bytree: 0.6
+learning_rate: 0.03309310255695479
+max_depth: 9
+min_child_samples: 1
+n_estimators: 518
+num_leaves: 59
+reg_alpha: 0.001
+reg_lambda: 0.001
+subsample: 1.0
+
+Best RMSE: 0.8944
